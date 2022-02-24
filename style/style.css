@@ -40,3 +40,21 @@ header{
 #enter, #create{
     float: right;
 }
+
+#aprender{
+    background-color: rgb(31,31,31);
+    text-align: center;
+}
+
+#aprender > h1{
+    color: orange;
+}
+
+#aprender > h2{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+img{
+    width: 80%;
+}

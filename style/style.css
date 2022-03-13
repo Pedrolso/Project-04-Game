@@ -2,6 +2,7 @@
 body{
     background: black url(../images/back.jpg) center center no-repeat fixed;
     background-size: cover;
+    margin: 0px;
 }
 
 header{
@@ -50,10 +51,13 @@ header{
 #aprender{
     background-color: rgb(31,31,31);
     text-align: center;
+    box-shadow: -1px -1px 1px 1px white;
 }
 
 #aprender > h1{
     color: orange;
+    
+    margin: 0px;
 }
 
 #aprender > h2{
@@ -66,6 +70,7 @@ img{
 }
 #divisao2{
 display: inline-block;
+box-shadow: -1px -1px white;
 }
 #legion{
     width: 40%;
@@ -94,4 +99,39 @@ display: inline-block;
 
 #divisao3{
     background-color: rgb(31, 31, 31);
+    box-shadow: -1px -1px 1px 1px white;
+}
+
+#texto{
+    font-size: 1.2em;
+    padding: 100px 0px 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#texto > h2 {
+    color: orange;
+    text-align: center;
+}
+
+#texto > p{
+    text-align: center;
+    color: white;
+
+}
+ 
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 2em;;
+    box-shadow: -1px -1px 1px 1px white;
 }
